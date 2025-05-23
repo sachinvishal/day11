@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+
+char Str;
+
+scanf ("%c", & Str); 
+
+printf ("%c", Str);
+
+return 0;}
