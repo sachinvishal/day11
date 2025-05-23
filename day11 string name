@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+
+char Str[20];
+
+scanf ("%s",  Str); 
+
+printf ("%s", Str[0]);
+
+return 0;}
+
+
+
+
+#include <stdio.h>
+
+int main(){
+
+char Str[20];----char str [200]="hema";
+
+scanf ("%s",  Str); ------(scanf("%[^\n]",str);----scanf("%[^\n]",str);
+
+printf ("%s", Str[0]);--------(printf("%c",str[0]);---printf("%d",sizeof()str));
+
+return 0;
+
+}
